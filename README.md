@@ -106,6 +106,7 @@ Built with .NET 6 + Angular 14. Deploy on your own server. Own your data forever
 
 ### Option 2: Build from Source (coding required)
 
+```bash
 # Clone (this is a public README only - source code on Gumroad)
 # Backend
 cd PointMaster.API
