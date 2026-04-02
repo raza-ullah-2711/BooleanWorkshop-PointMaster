@@ -103,3 +103,17 @@ Built with .NET 6 + Angular 14. Deploy on your own server. Own your data forever
 # 3. Double-click run-backend.bat
 # 4. Serve the frontend dist folder
 # 5. Open browser to http://localhost:5001
+
+### Option 2: Build from Source (coding required)
+
+# Clone (this is a public README only - source code on Gumroad)
+# Backend
+cd PointMaster.API
+dotnet restore
+dotnet build
+dotnet run
+
+# Frontend
+cd PointMaster.Frontend
+npm install
+ng serve
